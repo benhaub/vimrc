@@ -6,6 +6,7 @@ set colorcolumn=80 "display a red bar at the 80 character column
 set ts=2 "tabstop. Equivalent to two spaces
 set sw=2 "shift width
 set smarttab "Auto tabs for certain code
+set expandtab
 "noremap is disabling the arrow keys for navigation in normal mode
 noremap <up> <Nop>
 noremap <down> <Nop>
