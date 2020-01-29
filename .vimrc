@@ -1,3 +1,9 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Authour: Ben Haubrich                                         "
+" File: .vimrc                                                  "
+" Synopsis: Vim configurations. See inline documentation        "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" You need to create ~/.vim/.backup and ~/.vim/.swp ""
 set t_Co=256
 set background=dark
 colorscheme darkblue 
