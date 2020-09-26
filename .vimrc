@@ -24,6 +24,7 @@ set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup// "send backups here instead
 set directory=~/.vim/.swp//
 highlight Normal ctermfg=Yellow "Make the text yellow in Normal mode
+highlight Comment ctermfg=Magenta "Comments are purple
 "highlight Normal ctermbg=_____ "Can also set the background if you'd like
 "See vimdoc.sourceforge.net/htmldoc/syntax.html#:hi-normal-cterm for more
 "colours
