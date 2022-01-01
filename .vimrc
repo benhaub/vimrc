@@ -18,6 +18,9 @@ noremap <up> <Nop>
 noremap <down> <Nop>
 noremap <left> <Nop>
 noremap <right> <Nop>
+"Requires https://github.com/ericcurtin/CurtineIncSw.vim
+"Enables toggling between *.c* and *.h* files.
+map <Tab> :call CurtineIncSw()<CR>
 syntax enable "Syntax highlighting. See vimdoc.sourceforge.net/htmldoc/syntax.html
 source $VIMRUNTIME/vimrc_example.vim
 set undodir=~/.vim/.undo//
@@ -29,9 +32,6 @@ highlight Comment ctermfg=LightBlue "Comments are light blue
 "See vimdoc.sourceforge.net/htmldoc/syntax.html#:hi-normal-cterm for more
 "colours
 "See vimdoc.sourceforge.net/htmldoc/intro.html#Normal for more modes.
-"CurtineIncSw allows for switching between source and header files. Uncomment
-"to activate.
-"map <Ctrl-Tab> :call CurtineIncSw()<CR>
 
 "DownFor pastes each value starting with startValue in the current cursor
 "position and continues down the column changing each by changePerLine for
