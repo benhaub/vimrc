@@ -26,6 +26,7 @@ source $VIMRUNTIME/vimrc_example.vim
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup// "send backups here instead
 set directory=~/.vim/.swp//
+set is hls "Incremental search reveals matches for each character as it's typed
 highlight Normal ctermfg=Yellow "Make the text yellow in Normal mode
 highlight Comment ctermfg=LightBlue "Comments are light blue
 "highlight Normal ctermbg=_____ "Can also set the background if you'd like
