@@ -3,7 +3,7 @@
 " File: .vimrc                                                  "
 " Synopsis: Vim configurations. See inline documentation        "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" You need to create ~/.vim/.backup and ~/.vim/.swp
+"" You need to create ~/.vim/.backup, ~/.vim/.undo and ~/.vim/.swp
 set t_Co=256
 set background=dark
 colorscheme delek
